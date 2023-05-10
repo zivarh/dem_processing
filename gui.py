@@ -21,7 +21,6 @@ def load_raster_data():
     By calling the withdraw() method on the root window, can avoid creating an extra, unnecessary window.
 
     '''
-
     # prompt user to select a file using a file dialog
     file_path = filedialog.askopenfilename(title='Select Raster Data File', filetypes=[('Text Files', '*.txt')])
 
